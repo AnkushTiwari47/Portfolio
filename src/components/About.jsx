@@ -49,7 +49,7 @@ const About = () => {
               <div className="w-full aspect-[3/4] overflow-hidden rounded-xl bg-gray-800 border-2 border-transparent">
                 <img 
                   src={stackImage} 
-                  alt="Md Yusuf — Full Stack & Java Developer" 
+                  alt="Ankush Tiwari — Full Stack MERN developer " 
                   className="w-full h-full object-cover object-top"
                 />
               </div>
@@ -70,10 +70,10 @@ const About = () => {
           {/* Horizontal Skills Row */}
           <div className="flex items-center gap-10 mt-8">
             <div data-aos="zoom-in" data-aos-delay="300" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
-              <JavaIcon />
+              <PythonIcon />
             </div>
             <div data-aos="zoom-in" data-aos-delay="450" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
-              <SpringBootIcon />
+              <DsaCppIcon/>
             </div>
             <div data-aos="zoom-in" data-aos-delay="600" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
               <MernIcon />
